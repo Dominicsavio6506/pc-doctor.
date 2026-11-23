@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Use the PC Doctor guided computer troubleshooting tool."><title>Guided Diagnosis | PC Doctor</title><link rel="stylesheet" href="style.css"><script src="script.js" defer></script></head>
+<body><header class="site-header"><a class="brand" href="index.html"><span class="brand-mark">PD</span><span>PC<span class="accent">DOCTOR</span><small>DIAGNOSTIC SYSTEM</small></span></a><button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button><nav class="nav"><a href="index.html">Home</a><a class="active" href="diagnose.html">Diagnose</a><a href="hardware.html">Hardware</a><a href="software.html">Software</a><a href="network.html">Network</a><a href="about.html">About</a></nav><a class="header-cta" href="diagnose.html">Start diagnosis <span>↗</span></a></header>
+<main class="container page-main"><div class="page-intro"><div class="eyebrow"><span class="pulse"></span> INTERACTIVE TOOL</div><h1>Guided <span class="gradient-text">diagnosis.</span></h1><p>Choose the symptom you are experiencing. The tool will match your answers to a small troubleshooting guide and suggest safe next steps.</p></div>
+<section class="diagnostic-layout"><div class="diagnostic-panel">
+<div class="panel-top"><div><span class="panel-label">PC DOCTOR / WIZARD</span><h2>What are you experiencing?</h2></div><span class="step-count" id="step-count">STEP 01</span></div>
+<div class="progress-track"><span id="progress-bar"></span></div>
+<div id="diagnostic-app">
+<div class="choice-grid" id="symptom-choices">
+<button class="choice-card" data-symptom="slow"><span>◴</span><b>PC is running slowly</b><small>Lag, freezing or long loading</small></button>
+<button class="choice-card" data-symptom="power"><span>⏻</span><b>PC won't turn on</b><small>No power or no startup</small></button>
+<button class="choice-card" data-symptom="display"><span>▣</span><b>No display</b><small>Black screen or no signal</small></button>
+<button class="choice-card" data-symptom="wifi"><span>⌁</span><b>Internet not working</b><small>Wi-Fi connected or disconnected</small></button>
+<button class="choice-card" data-symptom="heat"><span>♨</span><b>PC is overheating</b><small>Hot device or loud fan</small></button>
+<button class="choice-card" data-symptom="crash"><span>⚠</span><b>Apps keep crashing</b><small>Unexpected closing or errors</small></button>
+</div>
+<div id="question-area" hidden></div><div id="result-area" hidden aria-live="polite"></div>
+</div></div>
+<aside class="side-note"><div class="side-symbol">✳</div><h3>Safety first.</h3><p>These suggestions are educational and cannot confirm a hardware fault. Stop if you notice smoke, burning smells, liquid damage or unusual electrical sounds.</p><div class="note-line"></div><h4>Before you begin</h4><ul><li>Save your work if the computer is still running.</li><li>Note any error message exactly.</li><li>Do not open a power supply unit.</li></ul></aside></section>
+</main><footer class="footer"><div class="container footer-inner"><a class="brand" href="index.html"><span class="brand-mark">PD</span><span>PC<span class="accent">DOCTOR</span><small>DIAGNOSTIC SYSTEM</small></span></a><p>Educational troubleshooting guidance. Not a substitute for professional repair.</p><span>© <span data-year></span> PC Doctor</span></div></footer></body></html>
